@@ -1,0 +1,7 @@
+Wow, you're here! Let me show you a secret.
+<br>
+<%= link_to 'SECRET', '/secret' %>
+<hr>
+<%= form_tag ({controller: 'sessions', action:'destroy', method: 'post'}) do %>
+    <%= submit_tag "logout" %>
+<% end %>
